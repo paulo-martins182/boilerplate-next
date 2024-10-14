@@ -29,6 +29,7 @@ export default function RootLayout({
           <Providers>
             <div className="content_page">
               <Sidebar />
+
               <div className="content_layout">{children}</div>
             </div>
           </Providers>
