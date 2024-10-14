@@ -16,7 +16,7 @@ pnpm run check-lint ||
 
 pnpm run test ||
 (
-    echo '❌🔍🛠️  Má vontade para escrever teste einn!! pode revisar oque foi descrito acima é só ler ❌🔍🛠️ ' ;
+    echo '❌🔍🛠️  Má svontade para escrever teste einn!! pode revisar oque foi descrito acima é só ler ❌🔍🛠️ ' ;
     false ;
 )
 
