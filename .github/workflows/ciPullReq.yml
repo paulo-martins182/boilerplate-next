@@ -1,0 +1,32 @@
+name: ciPullReq
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: [ubuntu-latest, windows-latest]
+
+    strategy:
+    matrix:
+      node-version: [18.x, 20.x, 22.x]
+
+    steps:
+      - name: Checkout Repository ${{ matrix.node-version }}
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm run install
+
+      - name: Linting
+        run: npm run lint
+
+      - name: Install Dependencies
+        run: npm run test
+
+      - name: Build
+        run: npm run build
