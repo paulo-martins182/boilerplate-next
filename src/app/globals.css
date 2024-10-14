@@ -10,7 +10,6 @@ body {
   font-family: Poppins, sans-serif;
   background: #3f4145;
   color: #ffff;
-
 }
 
 * {
@@ -18,7 +17,6 @@ body {
   padding: 0;
   margin: 0;
 }
-
 
 .content_page {
   height: 100vh;
