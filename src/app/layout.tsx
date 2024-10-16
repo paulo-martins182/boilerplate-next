@@ -5,7 +5,6 @@ import StyledComponentsRegistry from '@/lib/registry'
 
 import './globals.css'
 import { Providers } from '@/providers'
-import { Sidebar } from '@/components/Sidebar'
 
 const poppinsFont = Poppins({
   weight: ['400', '500', '600', '700', '900'],
@@ -13,8 +12,8 @@ const poppinsFont = Poppins({
   display: 'swap'
 })
 export const metadata: Metadata = {
-  title: 'Prolog Shop',
-  description: 'Test development Prolog Shop'
+  title: 'Boilerplate',
+  description: 'Test development Boilerplate'
 }
 
 export default function RootLayout({
@@ -27,10 +26,10 @@ export default function RootLayout({
       <body className={poppinsFont.className}>
         <StyledComponentsRegistry>
           <Providers>
-            <div className="content_page">
-              <Sidebar />
+            <div className="content_page" style={{ height: '100vh', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '2.5rem'}}>
+      
 
-              <div className="content_layout">{children}</div>
+              {children}
             </div>
           </Providers>
         </StyledComponentsRegistry>

@@ -1,3 +1,5 @@
+import HomeTemplate from "@/templates/Home";
+
 export default async function Home() {
-  return <div>Home</div>
+  return <HomeTemplate />
 }

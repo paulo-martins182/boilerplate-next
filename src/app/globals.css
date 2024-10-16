@@ -5,10 +5,8 @@ body {
 }
 
 body {
-  /*   color: var(--foreground);
-  background: var(--background); */
   font-family: Poppins, sans-serif;
-  background: #3f4145;
+  background: #020710;
   color: #ffff;
 }
 
