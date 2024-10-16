@@ -26,10 +26,11 @@ A estrutura básica do projeto inclui:
 Para iniciar com este boilerplate, siga os passos abaixo:
 
 1. Clone este repositório:
-   `git clone https://github.com/paulo-martins182/zend-web.git`
+   `git clone https://github.com/paulo-martins182/boilerplate-next.git`
+   
    `cd boilerplate`
 
-2. Instale as dependências:
+3. Instale as dependências:
    `pnpm install`
 
 ## Scripts
