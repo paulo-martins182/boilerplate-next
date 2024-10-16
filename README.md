@@ -9,6 +9,7 @@ Um boilerplate para aplicações web utilizando **Next.js** com **App Router** e
 - **Plop**: Ferramenta para gerar componentes de forma rápida e fácil.
 - **Jest**: Framework de testes para garantir a qualidade do código.
 - **Prettier** e **ESLint**: Ferramentas para garantir formatação e linting consistentes.
+- **Husky**: Ferramentas para garantir um commit/push do bem e para te estressar.
 
 ## Estrutura do Projeto
 
@@ -24,36 +25,36 @@ A estrutura básica do projeto inclui:
 Para iniciar com este boilerplate, siga os passos abaixo:
 
 1. Clone este repositório:
-   ``` git clone <URL_DO_REPOSITORIO> ```
-   ``` cd boilerplate ```
+   `git clone <URL_DO_REPOSITORIO>`
+   `cd boilerplate`
 
 2. Instale as dependências:
-   ``` pnpm install ```
+   `pnpm install`
 
 ## Scripts
 
 O projeto inclui os seguintes scripts principais:
 
 - **Desenvolvimento**: Inicia o servidor de desenvolvimento.
-  ``` pnpm dev ```
+  `pnpm dev`
 
 - **Build**: Cria uma versão otimizada para produção.
-  ``` pnpm build ```
+  `pnpm build`
 
 - **Iniciar**: Inicia a aplicação em produção.
-  ``` pnpm start ```
+  `pnpm start`
 
 - **Lint**: Executa a verificação de linting.
-  ``` pnpm lint ```
+  `pnpm lint`
 
 - **Testes**: Executa os testes unitários.
-  ``` pnpm test ```
+  `pnpm test`
 
 - **Gerar Componentes**: Gera um novo componente utilizando Plop.
-  ``` pnpm generate ```
+  `pnpm generate`
 
 - **Gerar Componentes com Erro**: Gera um novo componente com uma estrutura de erro utilizando Plop.
-  ``` pnpm generate:error ```
+  `pnpm generate:error`
 
 ## Dependências
 

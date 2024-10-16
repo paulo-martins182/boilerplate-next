@@ -26,9 +26,17 @@ export default function RootLayout({
       <body className={poppinsFont.className}>
         <StyledComponentsRegistry>
           <Providers>
-            <div className="content_page" style={{ height: '100vh', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '2.5rem'}}>
-      
-
+            <div
+              className="content_page"
+              style={{
+                height: '100vh',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '2.5rem'
+              }}
+            >
               {children}
             </div>
           </Providers>
