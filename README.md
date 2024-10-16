@@ -19,6 +19,7 @@ A estrutura básica do projeto inclui:
 - `generators/`: Contém os arquivos de configuração do Plop.
 - `pages/`: Estrutura padrão do Next.js para páginas.
 - `components/`: Diretório para componentes reutilizáveis.
+- `templates/`: Diretório para a estilizaçao das paginas.
 
 ## Instalação
 
