@@ -19,16 +19,18 @@ A estrutura básica do projeto inclui:
 - `generators/`: Contém os arquivos de configuração do Plop.
 - `pages/`: Estrutura padrão do Next.js para páginas.
 - `components/`: Diretório para componentes reutilizáveis.
+- `templates/`: Diretório para a estilizaçao das paginas.
 
 ## Instalação
 
 Para iniciar com este boilerplate, siga os passos abaixo:
 
 1. Clone este repositório:
-   `git clone <URL_DO_REPOSITORIO>`
+   `git clone https://github.com/paulo-martins182/boilerplate-next.git`
+   
    `cd boilerplate`
 
-2. Instale as dependências:
+3. Instale as dependências:
    `pnpm install`
 
 ## Scripts
